@@ -3,8 +3,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
     line-height: 1.5;
-    margin: 0;
-    padding: 0;
 }
 
 .top-portfolio {
@@ -27,4 +25,32 @@ body {
     background-color: #ddd;
     color: black;
   }
+
+#home {
+  /* Centers the main container */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-image: url("images/brad-knight-huWlb1NP67w-unsplash.jpg");
+}
+
+#skills {
+    /* Centers the main container */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}  
