@@ -8,6 +8,8 @@ body {
 .top-portfolio {
     background-color: #202020;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 /* Style the links inside the navigation bar */
