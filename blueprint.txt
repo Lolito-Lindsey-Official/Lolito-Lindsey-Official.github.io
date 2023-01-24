@@ -1,0 +1,1 @@
+First, start off with a intro section containing a navigation bar and a simple block of text greeting the user.
