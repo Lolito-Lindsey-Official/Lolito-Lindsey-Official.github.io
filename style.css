@@ -29,18 +29,18 @@ body {
   }  
   */
 
-img {
-  width: 100%;
-}
-
 .intro {
+      background-image: url(images/brad-knight-huWlb1NP67w-unsplash.jpg);
         margin: 0;
         position: absolute;
         top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
-
+        height: 100%;
+        width: 100%;
 }
 
-
+.intro-text {
+  text-align: center;
+}
