@@ -25,6 +25,7 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 .about-me {
@@ -33,6 +34,11 @@ body {
 
 .projects {
   height: 50vh;
+}
+
+.project-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contact {
