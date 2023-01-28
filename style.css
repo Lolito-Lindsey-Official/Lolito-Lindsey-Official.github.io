@@ -6,31 +6,14 @@ body {
     margin: 0;
     padding: 0;
 }
-/*
-.top-portfolio {
-    background-color: #202020;
-    overflow: hidden;
+
+.portfolio-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-/* Style the links inside the navigation bar 
-.top-portfolio a {
-    float: left;
-    color: #FFF;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-   Change the color of links on hover 
-  .top-portfolio a:hover {
-    background-color: #ddd;
-    color: black;
-  }  
-  */
-
 .intro {
-      background-image: url(images/brad-knight-huWlb1NP67w-unsplash.jpg);
+      background-image: url(images/chicago-g84b3b80bf_1920.jpg);
         margin: 0;
         position: absolute;
         top: 50%;
