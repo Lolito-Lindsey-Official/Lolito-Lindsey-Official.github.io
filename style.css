@@ -7,6 +7,22 @@ body {
     padding: 0;
 }
 
+.portfolio-navbar {
+  overflow: hidden;
+  position: fixed;
+  background-color: #303030;
+  width: 100%;
+}
+
+.portfolio-navbar a {
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
 .portfolio-layout {
   display: grid;
   grid-template-rows: 2fr;
@@ -29,7 +45,23 @@ body {
 }
 
 .about-me {
+  background-color: silver;
   height: 100vh;
+}
+
+.about-me-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-me-picture {
+  background-color: aliceblue;
+  height: 50vh;
+}
+
+.about-me-background {
+  font-size: 16px;
+  text-align: center;
 }
 
 .projects {
@@ -42,5 +74,7 @@ body {
 }
 
 .contact {
+  background-color: #303030;
+  color: #fff;
   height: 50vh;
 }
