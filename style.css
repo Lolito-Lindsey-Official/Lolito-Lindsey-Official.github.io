@@ -77,9 +77,10 @@ body {
 .project-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 25vh 25vh 25vh;
+  grid-template-rows: 5fr 5fr 5fr;
   gap: 1vh;
   text-align: center;
+  margin: auto
 }
 
 .container {
@@ -87,6 +88,10 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 1.5vh;
   border-radius: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container:hover {
