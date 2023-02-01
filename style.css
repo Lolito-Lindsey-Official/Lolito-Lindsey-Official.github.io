@@ -83,16 +83,21 @@ body {
 }
 
 .projects {
-  height: 50vh;
+  height: 80vh;
 }
 
 .project-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 .contact {
   background-color: #303030;
   color: #fff;
-  height: 50vh;
+  height: 20vh;
+}
+
+.contact-title {
+  text-align: center;
 }
