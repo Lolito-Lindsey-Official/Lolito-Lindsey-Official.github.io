@@ -78,6 +78,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  gap: 0.5rem;
+  padding: -5%;
   justify-self: center;
   text-align: center;
 }
