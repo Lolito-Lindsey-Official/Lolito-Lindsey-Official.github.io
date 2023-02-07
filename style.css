@@ -76,8 +76,8 @@ body {
 
 .project-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   justify-self: center;
   text-align: center;
 }
