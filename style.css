@@ -16,18 +16,17 @@ p {
   display: grid;
   height: 100vh;
 
-  grid-template-rows: auto 98vh 50vh 100vh auto;
+  grid-template-rows: auto 98vh 50vh auto auto;
 }
 
 .top-nav {
   padding: 2vh;
   overflow: hidden;
-  
 }
 
 #home {
   background-image:url(/Lolito-Lindsey-Official.github.io/images/pexels-pixabay-268349.jpg);
-  background-position: center;
+  background-position:initial;
 }
 
 #about-me {
@@ -40,23 +39,24 @@ p {
 }
 
 #projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 1vh;
-  padding: 4vh;
+  gap: 2vh;
+  padding: 2vh;
   background-color: burlywood;
 }
 
 .column {
   width: 100%;
-  padding: 10px;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
 }
-
+  
 .row {
-	display: flex;
+	  display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
     gap: 1vh;
 }
 
