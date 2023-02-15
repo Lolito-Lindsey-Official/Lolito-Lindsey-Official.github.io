@@ -16,7 +16,7 @@ p {
   display: grid;
   height: 100vh;
 
-  grid-template-rows: auto 98vh 50vh 75vh auto;
+  grid-template-rows: auto 98vh 50vh 100vh auto;
 }
 
 .top-nav {
@@ -45,29 +45,34 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1vh;
-  padding: 5vh;
+  padding: 4vh;
   background-color: burlywood;
 }
 
-@media (max-width: 768px) {
-  #projects {
-      flex-direction: column;
-  }
-}
-
-article {
-  padding: 5vh;
+.column {
   width: 100%;
-  background-color: cornflowerblue;
+  padding: 10px;
 }
 
-article:hover {
-  background-color: aquamarine;
+.row {
+	display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+@media screen and (min-width: 768px) {
+	.row {
+    	flex-direction: row;
+  }
 }
 
 #contact {
   background-color: silver;
   text-align: center;
   padding: 2vh;
+}
+
+img {
+  width: 400px;
 }
 
