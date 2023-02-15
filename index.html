@@ -5,62 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>LL Central</title>
+    <title>Layout Test</title>
 </head>
 <body>
     
-<div class = "portfolio-layout">
-    <div class = "portfolio-navbar">
-        <nav>
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-        </nav>
-    </div>
-    <div class = "intro">
-        <div class = "intro-text">
-            <h1>Hello there!</h1>
-            <h3>Lolito Lindsey here.</h3>
-            <p>22 year old aspiring front-end developer.</p>
-        </div>
-    </div>
-    <div class = "about-me">
-        <main class = "about-me-layout">
-            <aside class = "about-me-picture"></aside>
-            <p class = "about-me-background">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos consequatur aut molestiae architecto impedit asperiores iste recusandae similique temporibus, natus iure iusto ratione debitis atque itaque sed consequuntur vitae.</p>
-        </main>
-    </div>
-    <div class = "projects">
-        <main class = "project-layout">
+    <div class = "container">
+        <header>
+            <nav class = "top-nav">
+                <a href="#home">home</a>
+                <a href="#about-me">about me</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
 
-                <div class="card">
-                    <img class = "image-width" src="images/Screenshot 2022-12-25 at 09-13-06 Frontend Mentor QR code component.png" alt="QR Code Screenshot">
-                    <h1>QR Code Component</h1>
-                    <button><a href = "https://github.com/Lolito-Lindsey-Official/QRCodeComponent-LLO" class="contact-text" href="#">Contact</a></button>
-                  </div>
+            <div id = "home">
+                <p>Welcome to my portfolio!</p>
+            </div>
 
-                  <div class="card">
-                    <img class = "image-width" src="images/Screenshot 2022-12-25 at 09-13-06 Frontend Mentor QR code component.png" alt="QR Code Screenshot">
-                    <h1>QR Code Component</h1>
-                    <button><a href = "https://github.com/Lolito-Lindsey-Official/QRCodeComponent-LLO" class="contact-text" href="#">Contact</a></button>
-                  </div>
+            <div id = "about-me">
+                <aside>
+                    <div class = "profile-photo"></div>
+                </aside>
+                <p>At a young age, I had an interest in technology, both of the vintage and futuristic.</p>
+            </div>
 
-                  <div class="card">
-                    <img class = "image-width" src="images/Screenshot 2022-12-25 at 09-13-06 Frontend Mentor QR code component.png" alt="QR Code Screenshot">
-                    <h1>QR Code Component</h1>
-                    <button><a href = "https://github.com/Lolito-Lindsey-Official/QRCodeComponent-LLO" class="contact-text" href="#">Contact</a></button>
-                  </div>
-        </main>
+            <div id = "projects">
+                    <article>
+                        <p>QR Code Component</p>
+                        <button><a href = "https://github.com/Lolito-Lindsey-Official/QRCodeComponent-LLO">Click to see</a></button>
+                    </article>
+                    <article>
+                        <p>Travel Brochure but worse</p>
+                        <button><a href = "#">Click to see</a></button>
+                    </article>
+                    <article>
+                        <p>3 Column Component</p>
+                        <button><a href = "#">Click to see</a></button>
+                    </article>
+            </div>
+
+            <footer>
+                <div id = "contact">
+                    <p>123-456-7890</p>
+                    <p>qwertyuiop@gmail.com</p>
+                    <p>@asdfghjkl</p>
+                </div>
+            </footer>
     </div>
-    <div class = "contact">
-            <h1 class = "contact-title">Want to contact me? Try one of the following: </h1>
-            <ul>
-                <li><b>LinkedIn: </b><a href = "https://www.linkedin.com/in/lolito-lindsey-7b8259198/">Lolito Lindsey</a></li>
-                <li><p>Github: Lolito-Lindsey-Official</p></li>
-                <li><p>Email: lolitolindsey@gmail.com</p></li>
-                <li><p>Phone Number: 309-750-4624</p></li>
-            </ul>
-    </div>
-</div>
+
 </body>
 </html>
