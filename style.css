@@ -37,12 +37,12 @@ p {
 
 .about-me-column {
   width: 100%;
-  padding: 2.5vh;
+  padding: 2vh;
 }
 
 .about-me-row {
 	display: flex;
-  gap: 2.5vh;
+  gap: 2vh;
   flex-direction: row;
 }
 
@@ -65,7 +65,7 @@ p {
 
 .projects-column {
   width: 100%;
-  padding: 2.5vh;
+  padding: 2vh;
   display: flex;
   flex-direction: column;
 }
