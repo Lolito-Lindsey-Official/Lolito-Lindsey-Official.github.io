@@ -16,7 +16,7 @@ p {
   display: grid;
   height: 100vh;
 
-  grid-template-rows: auto 98vh 50vh auto auto;
+  grid-template-rows: auto 98vh auto auto auto;
 }
 
 .top-nav {
@@ -30,7 +30,26 @@ p {
 }
 
 #about-me {
+  gap: 2vh;
+  padding: 2vh;
   background-color: cadetblue;
+}
+
+.about-me-column {
+  width: 100%;
+  padding: 2.5vh;
+}
+
+.about-me-row {
+	display: flex;
+  gap: 2.5vh;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+	.about-me-row {
+    	flex-direction: column;
+    }
 }
 
 .profile-photo {
@@ -57,7 +76,7 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 10%;
-    gap: 1vh;
+    gap: 2vh;
 }
 
 @media screen and (min-width: 992px) {
