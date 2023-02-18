@@ -35,7 +35,7 @@ p {
 
 .profile-photo {
   background-color: #202020;
-  width: 300px;
+  width: 100%;
 }
 
 #projects {
@@ -44,14 +44,14 @@ p {
   background-color: burlywood;
 }
 
-.column {
+.projects-column {
   width: 100%;
-  padding: 5vh;
+  padding: 2.5vh;
   display: flex;
   flex-direction: column;
 }
   
-.row {
+.projects-row {
 	  display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@ p {
 }
 
 @media screen and (min-width: 992px) {
-	.row {
+	.projects-row {
     	flex-direction: row;
   }
 }
@@ -73,6 +73,6 @@ p {
 }
 
 img {
-  width: 400px;
+  width: 100%;
 }
 
