@@ -16,7 +16,7 @@ p {
   display: grid;
   height: 100vh;
 
-  grid-template-rows: 1.5vh 100vh 100vh 100vh auto;
+  grid-template-rows: 1.5vh 100vh auto auto auto;
 }
 
 .top-nav {
