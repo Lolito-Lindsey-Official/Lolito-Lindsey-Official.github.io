@@ -16,7 +16,7 @@ p {
   display: grid;
   height: 100vh;
 
-  grid-template-rows: auto 100vh auto auto;
+  grid-template-rows: 1.5vh 100vh 100vh 100vh auto;
 }
 
 .top-nav {
@@ -29,13 +29,7 @@ p {
 .top-nav a {
   text-decoration: none;
   text-align: center;
-  padding: 10px 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .top-nav a {
-      
-  }
+  padding: auto 50px;
 }
 
 .top-nav a:hover {
