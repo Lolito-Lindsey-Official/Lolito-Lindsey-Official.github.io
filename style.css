@@ -20,15 +20,22 @@ p {
 }
 
 .top-nav {
-  padding: 2vh;
+  padding: 1.5vh;
   position: fixed;
   width: 100%;
-  background-color: #ffffff79;
+  background-color: #ffffff;
 }
 
 .top-nav a {
   text-decoration: none;
+  text-align: center;
   padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-nav a {
+      
+  }
 }
 
 .top-nav a:hover {
@@ -40,7 +47,16 @@ p {
 
 #home {
   background-image:url(/Lolito-Lindsey-Official.github.io/images/pexels-ian-turnell-709552.jpg);
-  background-position:initial;
+}
+
+.home-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 #about-me {
