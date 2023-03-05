@@ -55,7 +55,7 @@ p {
 
 #about-me {
   gap: 2vh;
-  padding: 2vh;
+  padding: 1.5vh;
   background-color: cadetblue;
 }
 
@@ -83,7 +83,7 @@ p {
 
 #projects {
   gap: 2vh;
-  padding: 2vh;
+  padding: 1.5vh;
   background-color: burlywood;
 }
 
@@ -134,7 +134,7 @@ button:hover {
 #contact {
   background-color: silver;
   text-align: center;
-  padding: 2vh;
+  padding: 1.5vh;
 }
 
 img {
