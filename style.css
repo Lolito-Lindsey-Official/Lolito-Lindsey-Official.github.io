@@ -70,7 +70,7 @@ p {
   flex-direction: row;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	.about-me-row {
     	flex-direction: column;
     }
