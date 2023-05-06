@@ -16,7 +16,7 @@ p {
   display: grid;
   height: 100vh;
 
-  grid-template-rows: 1.5vh 100vh auto auto auto;
+  grid-template-rows: auto 100vh auto auto auto;
 }
 
 /*New navigation bar code - will definitely experiment on*/
@@ -24,8 +24,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  color: #333;
+  background-color: #333;
+  color: #fff;
   height: 60px;
   padding: 10px 20px;
 }
@@ -33,7 +33,6 @@ nav {
 .desktop-nav {
   display: flex;
   list-style: none;
-  background-color: aqua;
 }
 
 .desktop-nav li {
@@ -52,8 +51,8 @@ nav {
 .desktop-nav a:hover {
   transition: 0.2s;
   margin-bottom: 5px;
-  border-color: navy;
-  border: 2px solid;
+  border-bottom: navy;
+  border: 1px solid transparent;
 }
 
 .mobile-nav {
@@ -133,14 +132,15 @@ nav {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #333;
-  background-color: rgba(121, 121, 121, 0.664);
+  color: #fff;
+  background-color: #333;
 }
 
 #about-me {
   gap: 2vh;
   padding: 1.5vh;
   background-color: #333;
+  color: #fff;
 }
 
 .about-me-column {
@@ -194,7 +194,7 @@ nav {
 }
 
 button {
-  background-color: navy;
+  background-color: #333;
   border: none;
   color: #fff;
   padding: 15px 32px;
@@ -207,10 +207,11 @@ button {
 
 button a {
     text-decoration: none;
+    color: #fff;
 }
 
 button:hover {
-  background-color: #333;
+  background-color: navy;
   transition: 0.25s;
   font-weight: 600;
   color: #fff;
@@ -218,6 +219,7 @@ button:hover {
 
 #contact {
   background-color: #333;
+  color: white;
   text-align: center;
   padding: 1.5vh;
 }
