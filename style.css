@@ -107,6 +107,10 @@ nav {
 
 /* Here, it ends for the navbar. */
 
+#home {
+  background-color: #fff;
+}
+
 .home-text {
   margin: 0;
   position: absolute;
@@ -114,7 +118,8 @@ nav {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: rgba(192, 192, 192, 0.664);
 }
 
 #about-me {
