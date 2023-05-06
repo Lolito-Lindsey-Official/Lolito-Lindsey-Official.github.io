@@ -48,6 +48,13 @@ nav {
   text-decoration: none;
 }
 
+.desktop-nav a:hover {
+  transition: 0.2s;
+  margin-bottom: 5px;
+  border-color: navy;
+  border: 2px solid;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -98,6 +105,13 @@ nav {
   .mobile-nav ul a {
     color: #fff;
     text-decoration: none;
+  }
+
+  .mobile-nav ul a:hover {
+    transition: 0.2s;
+    margin-bottom: 5px;
+    border-color: navy;
+    border: 2px solid;
   }
 
   .mobile-nav.active ul {
