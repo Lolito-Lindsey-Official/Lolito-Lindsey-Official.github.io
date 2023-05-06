@@ -51,8 +51,8 @@ nav {
 .desktop-nav a:hover {
   transition: 0.2s;
   margin-bottom: 5px;
-  border-bottom: navy;
-  border: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-bottom-color: navy;
 }
 
 .mobile-nav {
