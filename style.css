@@ -6,10 +6,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-p {
-  max-width: 600;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: arial;
 }
 
 .container {
@@ -43,12 +43,12 @@ nav {
   margin-right: 0;
 }
 
-.desktop-nav a {
+.desktop-nav a, #contact a {
   color: #fff;
   text-decoration: none;
 }
 
-.desktop-nav a:hover {
+.desktop-nav a:hover, #contact a:hover {
   transition: border-bottom-color 0.2s ease;
   margin-bottom: 5px;
   border-bottom: 2px solid transparent;
@@ -134,11 +134,16 @@ nav {
   transform: translate(-50%, -50%);
   color: #fff;
   background-color: #333;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 16px;
 }
 
 #about-me {
   gap: 2vh;
-  padding: 1.5vh;
+  padding: 12px;
   background-color: #333;
   color: #fff;
 }
@@ -167,7 +172,7 @@ nav {
 
 #projects {
   gap: 2vh;
-  padding: 1.5vh;
+  padding: 12px;
   background-color: #fff;
 }
 
@@ -221,7 +226,7 @@ button:hover {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1.5vh;
+  padding: 6px;
 }
 
 img {
