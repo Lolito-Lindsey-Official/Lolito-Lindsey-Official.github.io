@@ -24,8 +24,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   height: 60px;
   padding: 10px 20px;
 }
@@ -33,6 +33,7 @@ nav {
 .desktop-nav {
   display: flex;
   list-style: none;
+  background-color: aqua;
 }
 
 .desktop-nav li {
@@ -120,6 +121,10 @@ nav {
 }
 
 /* Here, it ends for the navbar. */
+
+#home {
+  background-color: #fff;
+}
 
 .home-text {
   margin: 0;
