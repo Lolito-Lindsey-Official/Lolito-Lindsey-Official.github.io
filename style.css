@@ -121,12 +121,85 @@ nav {
 
 /* Here, it ends for the navbar. */
 
+.container {
+  border-radius: 50%;
+  position: relative;
+  height: 20vh;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dot-1 {
+  background-color: navy;
+  animation: move-1 2s linear infinite;
+}
+
+.dot-2 {
+  background-color: black;
+  animation: move-2 2s linear infinite;
+}
+
+.dot-3 {
+  background-color: navy;
+  animation: move-3 2s linear infinite;
+}
+
+.dot-4 {
+  background-color: black;
+  animation: move-4 2s linear infinite;
+}
+
+
+@keyframes move-1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(60px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(60px) rotate(-360deg);
+  }
+}
+
+@keyframes move-2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(-60px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(-60px) rotate(-360deg);
+  }
+}
+
+@keyframes move-3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-60px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateY(-60px) rotate(-360deg);
+  }
+}
+
+@keyframes move-4 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(60px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateY(60px) rotate(-360deg);
+  }
+}
+
+
 #home {
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(navy, #333) ;
 }
 
 .home-text, #about-me {
