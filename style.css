@@ -13,7 +13,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh auto;
+  grid-template-rows: 100vh 100vh auto;
 }
 
 /*New navigation bar code - will definitely experiment on*/
