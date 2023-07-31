@@ -23,10 +23,9 @@ nav {
   align-items: center;
   background-color: #000000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 6px;
   position: fixed;
   width: 100%;
-  height: 50px;
 }
 
 .desktop-nav {
@@ -133,18 +132,18 @@ nav {
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.5);
   color: #000;
-  width: 600px;
+  width: 400px;
   padding: 2vh;
 }
 
 #hello {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 100;
   text-align: center;
 }
 
 #welcome {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 200;
   text-align: center;
 }
@@ -240,7 +239,7 @@ button:hover {
   padding: 6px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 32px;
   align-items: center;
   justify-content: center;
 }
