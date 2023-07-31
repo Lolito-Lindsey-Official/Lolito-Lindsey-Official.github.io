@@ -13,7 +13,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh 100vh auto;
+  grid-template-rows: 100vh 50vh 25vh 100vh auto;
 }
 
 /*New navigation bar code - will definitely experiment on*/
@@ -121,7 +121,8 @@ nav {
 /* Here, it ends for the navbar. */
 
 #home {
-  background-image: linear-gradient(#000, #fff);
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 33%, rgba(1,55,141,1) 50%, rgba(0,212,255,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,8 +178,9 @@ nav {
 
 #projects {
   gap: 2vh;
-  padding: 12px;
-  background-image: linear-gradient(#fff, #000);
+  padding: 16px;
+  color: #000000;
+  background-color: #fff;
 }
 
 .projects-column {
@@ -186,6 +188,7 @@ nav {
   padding: 2vh;
   display: flex;
   flex-direction: column;
+  background-color: #aaa;
 }
   
 .projects-row {
@@ -195,6 +198,7 @@ nav {
     align-items: center;
     width: 100%;
     gap: 2vh;
+    margin-top: 2vh;
 }
 
 @media screen and (min-width: 992px) {
@@ -238,3 +242,10 @@ img {
   width: 100%;
 }
 
+.image-holder {
+  width: 100%;
+  padding-bottom:inherit;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
