@@ -24,7 +24,7 @@ nav {
   color: #fff;
   position: fixed;
   width: 100%;
-  padding: 10px;
+  padding: 16px;
 }
 
 .desktop-nav {
@@ -32,7 +32,7 @@ nav {
   list-style-type: none;
 }
 
-.desktop-nav li {
+.desktop-nav li, .mobile-nav ul li {
   margin-right: 40px;
 }
 
@@ -87,15 +87,11 @@ nav {
     position: absolute;
     list-style-type: none;
     text-align: center;
+    line-height: 2.5;
     top: 25px;
     left: 0;
     width: 100%;
     background-color: #333;
-    padding: 20px;
-  }
-
-  .mobile-nav ul li {
-    margin-bottom: 10px;
   }
 
   .mobile-nav ul li:last-child {
