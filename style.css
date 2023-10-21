@@ -88,7 +88,7 @@ nav {
     list-style-type: none;
     text-align: center;
     line-height: 2.5;
-    top: 25px;
+    top: 50px;
     left: 0;
     width: 100%;
     background-color: #333;
@@ -146,66 +146,6 @@ nav {
   text-align: center;
 }
 
-#about-me {
-  gap: 2vh;
-  padding: 16px;
-  color: #000000;
-  background-color: #fff;
-}
-
-.about-me-column {
-  width: 100%;
-  padding: 2vh;
-}
-
-.about-me-row {
-	display: flex;
-  gap: 2vh;
-  flex-direction: row;
-}
-
-@media screen and (max-width: 800px) {
-	.about-me-row {
-    	flex-direction: column;
-    }
-}
-
-.profile-photo {
-  background-color: #333;
-  width: 100%;
-}
-
-#projects {
-  gap: 2vh;
-  padding: 16px;
-  color: #000000;
-  background-color: #fff;
-}
-
-.projects-column {
-  width: 100%;
-  padding: 2vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #aaa;
-}
-  
-.projects-row {
-	  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 2vh;
-    margin-top: 2vh;
-}
-
-@media screen and (min-width: 992px) {
-	.projects-row {
-    	flex-direction: row;
-  }
-}
-
 button {
   background-color: #333;
   border: none;
@@ -226,27 +166,7 @@ button a {
 button:hover {
   background-color: navy;
   transition: 0.25s;
-  font-weight: 600;
   color: #fff;
-}
-
-#contact {
-  background-color: #000000;
-  color: white;
-  text-align: center;
-  padding: 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-  align-items: center;
-  justify-content: center;
-}
-
-@media screen and (max-width: 768px) {
-	#contact {
-    	flex-direction: column;
-      gap: 10px;
-  }
 }
 
 img {
