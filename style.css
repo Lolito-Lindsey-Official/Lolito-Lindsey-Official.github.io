@@ -179,3 +179,82 @@ img {
   color: #fff;
   text-align: center;
 }
+
+#about-me {
+  gap: 2vh;
+  padding: 16px;
+  color: #000000;
+  background-color: #fff;
+}
+
+.about-me-column {
+  width: 100%;
+  padding: 2vh;
+}
+
+.about-me-row {
+   display: flex;
+  gap: 2vh;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+    .about-me-row {
+        flex-direction: column;
+    }
+}
+
+.projects-title {
+  margin-left: 10px;
+}
+
+.projects-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  gap: 25px;
+}
+
+.projects-column {
+  background-color: #eeeeee;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.33);
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .projects-row {
+      flex-direction: column;
+  }
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+  background-color: navy;
+  transition: 0.25s;
+  color: #fff;
+}
+
+#contact {
+    background-color: #ffb3b3;
+    text-align: center;
+    padding: 6px;
+    gap: 32px;
+    height: 22vh;
+  }
