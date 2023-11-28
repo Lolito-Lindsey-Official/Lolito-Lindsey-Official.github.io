@@ -12,7 +12,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh 100vh;
+  grid-template-rows: 100vh 100vh 100vh auto;
 }
 
 /*New navigation bar code - will definitely experiment on*/
@@ -276,12 +276,12 @@ button:hover {
 #contact {
     background-color: #ffb3b3;
     text-align: center;
-    height: 100vh;
     font-size: 1.2rem;
     font-weight: 300;
 
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
