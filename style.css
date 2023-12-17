@@ -121,11 +121,25 @@ nav {
 /* Here, it ends for the navbar. */
 
 #home {
-  background-color: #202020;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.parallax {
+  /* Example height, you can set it as needed */
+  height: auto; 
+
+  /* Background image */
+  background-image: url('images/minimal-4K-navy-background.png');
+
+  /* Parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .home-text {
   color: #ffffff;
@@ -173,10 +187,8 @@ img {
 }
 
 #about-me {
-  gap: 1vh;
   padding: 16px;
-  color: #000000;
-  background-color: #fff;
+  color: #ffffff;
 }
 
 .about-me-column {
@@ -197,10 +209,8 @@ img {
 }
 
 #projects {
-  gap: 2vh;
   padding: 16px;
   color: #000000;
-  background-color: #fff;
   text-align: center;
 }  
 
