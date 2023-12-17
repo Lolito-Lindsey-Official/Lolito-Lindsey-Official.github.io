@@ -7,7 +7,7 @@ menuBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', () => {
-  if (window.innerWidth > 767) {
+  if (window.innerWidth > 767){
     mobileNav.classList.remove('active');
     desktopNav.style.display = 'flex';
   } else {

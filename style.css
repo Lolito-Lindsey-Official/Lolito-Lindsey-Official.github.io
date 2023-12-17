@@ -136,10 +136,14 @@ nav {
   gap: 25vh;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .home-text {
       flex-direction: column;
   }
+}
+
+#display-clock {
+  font-size: 2rem;
 }
 
 #website-creator, #creator-contact {
@@ -186,7 +190,7 @@ img {
   flex-direction: row;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
     .about-me-row {
         flex-direction: column;
     }
