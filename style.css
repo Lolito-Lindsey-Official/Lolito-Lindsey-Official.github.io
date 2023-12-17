@@ -202,7 +202,7 @@ img {
   text-align: center;
 }
 
-#about-me, #projects {
+#about-me {
   gap: 2vh;
   padding: 16px;
   color: #000000;
@@ -224,6 +224,10 @@ img {
     .about-me-row {
         flex-direction: column;
     }
+}
+
+#projects {
+  
 }
 
 .projects-title {
