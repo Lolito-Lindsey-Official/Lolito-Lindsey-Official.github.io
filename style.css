@@ -12,7 +12,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh auto;
+  grid-template-rows: 100vh 100vh 100vh;
 }
 
 /*New navigation bar code - will definitely experiment on*/
@@ -24,7 +24,6 @@ nav {
   color: #fff;
   position: fixed;
   width: 100%;
-  padding: 16px;
 }
 
 .desktop-nav {
@@ -45,7 +44,7 @@ nav {
   text-decoration: none;
 }
 
-.desktop-nav a:hover, #contact a:hover {
+.desktop-nav a:hover {
   transition: border-bottom-color 0.2s ease;
   margin-bottom: 1px;
   border-bottom: 1px solid transparent;
@@ -69,12 +68,17 @@ nav {
 .mobile-menu-btn span {
   display: block;
   width: 100%;
-  height: 3px;
+  height: 1px;
   background-color: #fff;
 }
 
 @media screen and (max-width: 767px) {
+  nav {
+    padding: 15px;
+  }
+
   .desktop-nav {
+    transition: 0.1s;
     display: none;
   }
 
@@ -125,69 +129,31 @@ nav {
 
 .home-text {
   color: #ffffff;
+  text-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10rem;
+  gap: 25vh;
 }
 
-#skill-light {
-  font-size: 24px;
-  font-weight: 200;
-  text-align: center;
-  list-style-type: none;
+@media screen and (max-width: 800px) {
+  .home-text {
+      flex-direction: column;
+  }
 }
 
-#html-glow, #css-glow, #js-glow, #bootstrap-glow {
-  border-bottom: #ffffff 2px solid;
-  margin-bottom: 1rem;
+#website-creator, #creator-contact {
+  padding: 1rem;
 }
 
-#html-glow:hover {
+#creator-contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#creator-contact a:hover {
   transition: 0.1s;
-  border-bottom: rgb(250, 206, 60) 2px solid;
-  margin-bottom: 1rem;
-}
-
-#css-glow:hover {
-  transition: 0.1s;
-  border-bottom: rgb(0, 100, 194) 2px solid;
-  margin-bottom: 1rem;
-}
-
-#js-glow:hover {
-  transition: 0.1s;
-  border-bottom: rgb(214, 218, 0) 2px solid;
-  margin-bottom: 1rem;
-}
-
-#bootstrap-glow:hover {
-  transition: 0.1s;
-  border-bottom: rgb(155, 0, 194) 2px solid;
-  margin-bottom: 1rem;
-}
-
-button {
-  background-color: #333;
-  border: none;
-  color: #fff;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-button:hover {
-  background-color: navy;
-  transition: 0.25s;
-  color: #fff;
+  color: midnightblue;
 }
 
 img {
@@ -203,7 +169,7 @@ img {
 }
 
 #about-me {
-  gap: 2vh;
+  gap: 1vh;
   padding: 16px;
   color: #000000;
   background-color: #fff;
@@ -227,22 +193,27 @@ img {
 }
 
 #projects {
-  
-}
+  gap: 2vh;
+  padding: 16px;
+  color: #000000;
+  background-color: #fff;
+  text-align: center;
+}  
 
-.projects-title {
+.title {
   margin-left: 10px;
+  text-align: center;
 }
 
 .projects-row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 50px;
-  gap: 25px;
+  padding: 16px;
 }
 
 .projects-column {
+  text-align: center;
   background-color: #eeeeee;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.33);
   padding-bottom: 20px;
@@ -276,16 +247,3 @@ button:hover {
   transition: 0.25s;
   color: #fff;
 }
-
-#contact {
-    background-color: #ffb3b3;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 300;
-
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
